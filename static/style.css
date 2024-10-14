@@ -1,0 +1,149 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+}
+
+/* Form Container Styling */
+.login {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect on Container */
+.login:hover {
+    transform: translateY(-10px);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.form-label {
+    margin: 10px 0 5px;
+    font-weight: 600;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Input and Select Fields */
+select, input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focus Effect on Inputs and Select */
+input:focus, select:focus {
+    border-color: #007bff;
+    background-color: #f1f9ff;
+    outline: none;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Responsive Design: Larger Mobile and Tablet Devices */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    .login {
+        padding: 30px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    input, select, .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 12px;
+    }
+}
+
+/* Responsive Design: Smaller Mobile Devices */
+@media (max-width: 480px) {
+    .login {
+        padding: 20px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    input, select, .btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .btn {
+        padding: 10px;
+    }
+}
