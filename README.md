@@ -1,6 +1,6 @@
-Here is the `README.md` formatted for direct use on your GitHub repository:
 
-```markdown
+
+
 # Student Exam Performance Prediction
 
 This project focuses on predicting student exam performance using machine learning techniques. The web-based application is built with Flask and follows a modular programming structure. It includes data ingestion, preprocessing, model training, and a prediction pipeline.
@@ -144,6 +144,5 @@ The front-end of the application is designed with HTML (in the `template/` folde
 - **Deployment**: Deploying the model on cloud services like AWS or Google Cloud for scalability.
 - **Feature Expansion**: Adding more input features to improve prediction accuracy and provide better insights into student performance.
 
-## License
 
 
