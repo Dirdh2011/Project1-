@@ -74,8 +74,8 @@ The project leverages machine learning to predict student performance based on v
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/student-exam-prediction.git
-    cd student-exam-prediction
+    git clone https://github.com/Dirdh2011/Project1-.git
+    cd Project1-
     ```
 
 2. Install the required dependencies:
